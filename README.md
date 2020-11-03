@@ -5,8 +5,8 @@ This project is a showcase of making pixel-perfect webpages from mock-up images.
 
 ## Interfaces
 ---
-+ [Interface 8](https://steeeeeph.github.io/end-of-field-challenge/Interface-8-simple): a simple interface, non responsive.
-+ [Interface 5](https://steeeeeph.github.io/end-of-field-challenge/Interface-5-complex): a complex interface, made first as non-responsive (trying to incorporate responsiveness in left-over time).
++ [Interface 8](https://steeeeeph.github.io/end-of-field-challenge/Interface-8-simple/interface8.html): a simple interface, non responsive.
++ [Interface 5](https://steeeeeph.github.io/end-of-field-challenge/Interface-5-complex/interface5.html): a complex interface, made first as non-responsive (trying to incorporate responsiveness in left-over time).
 
 ## Restrictions
 ---
