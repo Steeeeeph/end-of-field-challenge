@@ -1,6 +1,6 @@
 .mockup {
-    width: auto;
-    height: 100vh;
+    width: 1135px;
+    height: 451px;
     position: absolute;
     top: 0;
     left: 0;
@@ -14,10 +14,10 @@
     left: 0;
     position: absolute;
     background-color: #1c1c1c;
-    width: 100%;
-    height: 100vh;
-    grid-template-rows: 6% auto 20%;
-    grid-template-columns: 450px 1fr repeat(4, 25%);
+    width: 1135px;
+    height: 451px;
+    grid-template-rows: 6% auto 17%;
+    grid-template-columns: 43.6% repeat(4, 14%);
     border: 1px solid white;
 }
 .sidenav {
@@ -27,13 +27,111 @@
     flex-direction: column;
     align-items: flex-start;
 }
-a {
+.sidenav a {
     font-family: 'Rubik', sans-serif;
     color: white;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 2em;
     font-weight: 500;
-    line-height: 69px;
-    padding-left: 55px;
+    line-height: 1.5em;
+    padding-left: 38px;
     letter-spacing: -0.8px;
+}
+.landing {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: -0.35px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    
+}
+.landing a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88em;
+    margin-top: 0;
+}
+.inner {
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+}
+.inner a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88em;
+    margin-top: 0;
+}
+.CMS {
+    grid-row: 2;
+    grid-column: 4;
+    display: flex;
+    flex-direction: column;
+}
+.CMS a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88em;
+    margin-top: 0;
+}
+.template {
+    grid-row: 2;
+    grid-column: 5;
+    display: flex;
+    flex-direction: column;
+}
+.template a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.88em;
+    margin-top: 0;
+}
+footer {
+    grid-row: 3;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 49.5% 50.5%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer #devkit-logo {
+    grid-column: 1;
+    width: 91px;
+    height: auto;
+    margin-right: 24px;
+    margin-top: 7px;
+    margin-left: auto;
+}
+footer p {
+    grid-column: 2;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.16em;
+    letter-spacing: 0.5px;
+    margin: 0;
 }
