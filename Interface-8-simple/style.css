@@ -18,3 +18,36 @@
     position: absolute;
     background-color: #090909;
 }
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    display: flex;
+    width: 325px;
+    flex-direction: column;
+    margin-top: 88px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    width: auto;
+    height: 70px;
+}
+.content {
+    padding-top: 3px;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: bold;
+    letter-spacing: 0.25px;
+    text-align: center;
+    line-height: 1.6em;
+}
