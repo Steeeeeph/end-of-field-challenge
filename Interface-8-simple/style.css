@@ -1,4 +1,4 @@
-.mockup {
+/* .mockup {
     width: 1231px;
     height: 331px;
     position: absolute;
@@ -7,7 +7,7 @@
     z-index: 10;
     opacity: 0.5;
     pointer-events: none;
-}
+} */
 
 .container {
     display: block;
