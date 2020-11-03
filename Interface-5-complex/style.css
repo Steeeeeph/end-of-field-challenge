@@ -1,4 +1,4 @@
-.mockup {
+/* .mockup {
     width: 1135px;
     height: 451px;
     position: absolute;
@@ -7,7 +7,7 @@
     z-index: 10;
     opacity: 0.5;
     pointer-events: none;
-}
+} */
 .grid-container {
     display: grid;
     top: 0;
@@ -17,7 +17,7 @@
     width: 1135px;
     height: 451px;
     grid-template-rows: 6% auto 17%;
-    grid-template-columns: 43.6% repeat(4, 14%);
+    grid-template-columns: auto repeat(4, 14%);
     border: 1px solid white;
 }
 .sidenav {
@@ -113,7 +113,6 @@ footer {
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 49.5% 50.5%;
-    flex-direction: row;
     justify-content: center;
     align-items: flex-start;
 }
